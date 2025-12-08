@@ -1,1 +1,5 @@
-file:///C:/Users/PC/MaksMarket/app/src/main/java/com/maksmarket/app/MainActivity.kt:6:17
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MaksMarket" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
