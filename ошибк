@@ -2,3 +2,4 @@ Manifest merger failed : uses-sdk:minSdkVersion 21 cannot be smaller than versio
 	Suggestion: use a compatible library with a minSdk of at most 21,
 		or increase this project's minSdk version to at least 23,
 		or use tools:overrideLibrary="androidx.navigationevent" to force usage (may lead to runtime failures)
+
