@@ -1,5 +1,2 @@
-Manifest merger failed : uses-sdk:minSdkVersion 21 cannot be smaller than version 23 declared in library [androidx.navigationevent:navigationevent-android:1.0.1] C:\Users\PC\.gradle\caches\8.13\transforms\9fbcb16b3b01009714dcfb25c6f3b23d\transformed\navigationevent\AndroidManifest.xml as the library might be using APIs not available in 21
-	Suggestion: use a compatible library with a minSdk of at most 21,
-		or increase this project's minSdk version to at least 23,
-		or use tools:overrideLibrary="androidx.navigationevent" to force usage (may lead to runtime failures)
-
+ERROR: C:\Users\PC\MaksMarket\app\src\main\AndroidManifest.xml:8:5-28:19: AAPT: error: resource style/Theme.AppTheme (aka com.maksmarket.app:style/Theme.AppTheme) not found.
+Explain with AI
