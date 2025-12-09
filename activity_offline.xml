@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#FFFFFF"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
     <TextView
-        android:text="Нет соединения. Подключитесь к интернету"
-        android:textSize="20sp"
-        android:textColor="#FF0000"
-        android:gravity="center"
+        android:text="Нет соединения. Подключитесь к Интернету, чтобы продолжить"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonRetry"
+        android:text="Повторить"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
