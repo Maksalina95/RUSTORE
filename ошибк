@@ -1,2 +1,7 @@
-Duplicate resources
-Explain with AI
+Android resource linking failed
+error: resource style/Theme.AppCompat.Light.NoActionBar (aka com.maksmarket.app:style/Theme.AppCompat.Light.NoActionBar) not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:240: error: style attribute 'attr/colorPrimary (aka com.maksmarket.app:attr/colorPrimary)' not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:241: error: style attribute 'attr/colorPrimaryDark (aka com.maksmarket.app:attr/colorPrimaryDark)' not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:242: error: style attribute 'attr/colorAccent (aka com.maksmarket.app:attr/colorAccent)' not found.
+error: failed linking references.
+
