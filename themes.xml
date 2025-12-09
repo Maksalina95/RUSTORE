@@ -1,11 +1,3 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-
-    <!-- Основная тема приложения -->
-    <style name="Theme.MaksMarket" parent="Theme.Material3.DayNight">
-        <!-- Отключаем стандартный ActionBar -->
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@color/white</item>
-    </style>
-
-</resources>
+ERROR: AAPT: error: resource style/Theme.Material3.DayNight (aka com.maksmarket.app:style/Theme.Material3.DayNight) not found.
+error: failed linking references.
+Explain with AI
