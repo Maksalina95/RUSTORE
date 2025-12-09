@@ -14,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         val webView: WebView = findViewById(R.id.webview)
         webView.webViewClient = WebViewClient()
         webView.settings.javaScriptEnabled = true
-        webView.loadUrl("https://maksmarket.vercel.app") // Твой сайт
+        webView.loadUrl("https://maksmarket.vercel.app") // твой сайт
     }
 }
