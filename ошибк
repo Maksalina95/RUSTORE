@@ -1,2 +1,9 @@
-
-Manifest merger failed : android:exported needs to be explicitly specified for element <activity#com.maksmarket.app.MainActivity>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
+Android resource linking failed
+error: resource style/Theme.MaterialComponents.DayNight.NoActionBar (aka com.maksmarket.app:style/Theme.MaterialComponents.DayNight.NoActionBar) not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:239: error: style attribute 'attr/colorPrimary (aka com.maksmarket.app:attr/colorPrimary)' not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:240: error: style attribute 'attr/colorPrimaryVariant (aka com.maksmarket.app:attr/colorPrimaryVariant)' not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:241: error: style attribute 'attr/colorOnPrimary (aka com.maksmarket.app:attr/colorOnPrimary)' not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:242: error: style attribute 'attr/colorSecondary (aka com.maksmarket.app:attr/colorSecondary)' not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:243: error: style attribute 'attr/colorSecondaryVariant (aka com.maksmarket.app:attr/colorSecondaryVariant)' not found.
+com.maksmarket.app-mergeDebugResources-32:/values/values.xml:244: error: style attribute 'attr/colorOnSecondary (aka com.maksmarket.app:attr/colorOnSecondary)' not found.
+error: failed linking references.
