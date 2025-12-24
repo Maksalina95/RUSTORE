@@ -3,3 +3,16 @@ node -v
 npm -v
 
 npm install -g @capacitor/cli
+capacitor --version
+npm init @capacitor/app
+server: {
+  url: "https://твой-сайт.vercel.app",
+  cleartext: true
+}
+
+cd MaksMarket
+npx cap add android
+npx cap sync
+
+npx cap open android
+
