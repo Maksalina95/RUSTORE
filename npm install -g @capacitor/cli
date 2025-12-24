@@ -1,1 +1,3 @@
 npm install -g @capacitor/cli
+node -v
+npm -v
