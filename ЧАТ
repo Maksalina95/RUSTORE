@@ -1,0 +1,7 @@
+  <!-- ===== Чат со мной ===== -->
+  <div id="chatPage" style="display: none;">
+    <div class="chat-header">
+      <button id="chat-back" class="chat-back" aria-label="Назад">← Назад</button>
+      <h2>Чат со мной</h2>
+      <div class="chat-header-spacer"></div>
+    </div>
