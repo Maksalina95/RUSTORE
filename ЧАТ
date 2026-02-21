@@ -5,3 +5,34 @@
       <h2>Чат со мной</h2>
       <div class="chat-header-spacer"></div>
     </div>
+
+
+
+
+/* Кнопка «Чат со мной» под телефоном */
+#open-chat {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto 16px auto;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+}
+
+#open-chat::before {
+  content: "💬";
+  font-size: 18px;
+}
+
+#open-chat:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
